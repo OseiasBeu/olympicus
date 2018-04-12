@@ -1,0 +1,130 @@
+/*!
+ * Mastertech - Thumbnail Gallery
+ * Insira seu código entre os comentários localizados no fim desta pagina ou/e
+ * Edite o código do layout original
+ */
+
+
+/* Edite o código abaixo para mudar as opções do layout original */
+
+
+/* @media (min-width: 992px) {
+    body {
+        /* padding-top: 56px; */
+
+
+/* } */
+
+
+/* } */
+
+nav {
+    height: 60px;
+    background-color: #e0e0e0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+}
+
+input {
+    width: 65%;
+    height: 50%;
+    /* box-sizing: border-box; */
+    border: 2px solid #ccc;
+    /* border-radius: 4px; */
+    /* font-size: 16px; */
+    /* background-color: white; */
+    background-image: url('../img/lupa.png');
+    /* background-position: 10px 8px; */
+    background-repeat: no-repeat;
+    padding: 20px 25px 16px 40px;
+    border-radius: 50px;
+    /* margin-top: 10px; */
+}
+
+.flexbox {
+    display: flex;
+}
+
+
+/* .btnflexbox {
+    width: 1100px; 
+    height: 20px;
+    display: flex;
+    justify-content: center;
+} */
+
+.logotipo {
+    margin-left: 40px;
+    margin-right: 50px;
+    width: 90px;
+    height: 50px;
+}
+
+
+/* //////////////////////drop////////////////////// */
+
+.dropbtn {
+    /* background-color: #e0e0e0; */
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    border: none;
+    width: 50%;
+    height: 50%;
+    background-image: url('../img/btn.png');
+    /* border: 2px solid black; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-homem a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-homem a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #e0e0e0;
+}
+
+
+/* Inicio do meu CSS */
+
+
+/* Fim do meu CSS 25
