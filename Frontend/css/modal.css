@@ -144,3 +144,49 @@
                 font-size: 20px;
                 margin-left: 25%;
             }
+            /* RESPNSIVIDADE */
+            
+            @media (min-width: 600px) {
+                .button {
+                    background-color: #FF4081;
+                    margin-left: 20%;
+                    margin-bottom: 20px;
+                    width: 60%;
+                    border: none;
+                    color: white;
+                    padding: 16px 32px;
+                    text-align: center;
+                    font-size: 16px;
+                    /* margin: 4px 2px; */
+                    /* opacity: 0.6; */
+                    transition: 0.3s;
+                    display: inline-block;
+                    text-decoration: none;
+                    cursor: pointer;
+                    border-radius: 5px;
+                }
+                #IMG_PRODUTO {
+                    margin-left: 15%;
+                    width: 70%;
+                    position: relative;
+                    align-content: space-around;
+                }
+                .id_PRODUTO {
+                    position: relative;
+                    align-content: space-around;
+                    border: none;
+                    color: white;
+                    padding: 3px 3px;
+                    text-align: left;
+                    font-size: 10px;
+                    top: -5px;
+                    margin-left: 15%;
+                    width: 70%;
+                    background-color: #FF4081;
+                    border-radius: 0px 0px 5px 5px;
+                }
+                .NOME_PRODUTO {
+                    font-size: 20px;
+                    margin-left: 25%;
+                }
+            }
