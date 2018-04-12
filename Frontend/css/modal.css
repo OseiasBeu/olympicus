@@ -1,7 +1,7 @@
             body {
                 font-family: Arial, Helvetica, sans-serif;
             }
-            /* The Modal (background) */
+         
             
             .modal {
                 display: none;
@@ -25,7 +25,6 @@
                 background-color: rgba(0, 0, 0, 0.4);
                 /* Black w/ opacity */
             }
-            /* Modal Content */
             
             .modal-content {
                 position: relative;
@@ -40,7 +39,7 @@
                 animation-name: animatetop;
                 animation-duration: 0.4s
             }
-            /* Add Animation */
+            /* Anicação */
             
             @-webkit-keyframes animatetop {
                 from {
@@ -63,7 +62,7 @@
                     opacity: 1
                 }
             }
-            /* The Close Button */
+            /* O botão de fechar */
             
             .close {
                 color: white;
