@@ -47,7 +47,7 @@ span.psw {
     padding-top: 16px;
 }
 
-.modal {
+.modalL {
     display: none;
     position: fixed;
     z-index: 1;
@@ -61,7 +61,7 @@ span.psw {
     padding-top: 10px;
 }
 
-.modal-content {
+.modalL-content {
     background-color: #fefefe;
     margin: 5% auto 15% auto;
     border: 1px solid #888;
@@ -71,7 +71,7 @@ span.psw {
 
 /* O botão de sair */
 
-.close {
+.closel {
     position: absolute;
     right: 25px;
     top: 0;
@@ -80,8 +80,8 @@ span.psw {
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.closel:hover,
+.closel:focus {
     color: red;
     cursor: pointer;
 }
@@ -120,7 +120,7 @@ input {
 /* Responsividade */
 
 @media screen and (max-width: 600px) {
-    .modal-content {
+    .modalL-content {
         width: 60%;
     }
     span.psw {
