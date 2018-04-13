@@ -123,10 +123,6 @@ input {
     .modalL-content {
         width: 60%;
     }
-    span.psw {
-        display: block;
-        float: none;
-    }
     .cancelbtn {
         width: 100%;
     }
