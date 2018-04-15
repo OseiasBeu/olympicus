@@ -52,7 +52,7 @@
                             display: none;
                             position: fixed;
                             z-index: 1;
-                            padding-top: 10px;
+                            padding-top: 15px;
                             left: 0;
                             top: 0;
                             width: 100%;
@@ -167,7 +167,7 @@
                                 display: none;
                                 position: fixed;
                                 z-index: 1;
-                                padding-top: 50%;
+                                padding-top: 40px;
                                 left: 0;
                                 top: 0;
                                 width: 100%;
