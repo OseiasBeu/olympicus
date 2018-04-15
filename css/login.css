@@ -121,7 +121,7 @@ input {
 
 @media screen and (max-width: 600px) {
     .modalL-content {
-        width: 60%;
+        width: 85%;
     }
     .cancelbtn {
         width: 100%;
@@ -137,7 +137,7 @@ input {
         width: 40%;
     }
     .modalL-content {
-        width: 80%;
+        width: 85%;
     }
     .cancelbtn {
         width: 80%;
