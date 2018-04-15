@@ -34,7 +34,6 @@ nav {
 /* //////////////////////drop////////////////////// */
 
 .dropbtn {
-    /* background-color: #e0e0e0; */
     color: white;
     padding: 25px;
     font-size: 16px;
@@ -56,7 +55,6 @@ nav {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 300px;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
 }
 
@@ -92,29 +90,3 @@ nav {
 
 
 /* Responsividade */
-
-@media screen and (max-width: 600px) {
-    .modalL-content {
-        width: 60%;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
-}
-
-
-/* @media screen and (max-width: 350px) {
-    button {
-        color: white;
-        padding: 14px 20px;
-        border: none;
-        cursor: pointer;
-        width: 40%;
-    }
-    .modalL-content {
-        width: 80%;
-    }
-    .cancelbtn {
-        width: 80%;
-    }
-} */

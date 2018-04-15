@@ -17,7 +17,14 @@ button {
     width: 100%;
 }
 
-.log:hover {
+.log {
+    color: white;
+    width: 10%;
+    margin-left: 50px;
+}
+
+.log,
+.entrar:hover {
     background-color: #c5c1c1ab;
 }
 
@@ -120,26 +127,23 @@ input {
 /* Responsividade */
 
 @media screen and (max-width: 600px) {
+    .log {
+        width: 100px;
+        margin-left: -30%;
+    }
+    #barraPesquisa {
+        width: 0;
+        height: 0;
+        border: 0;
+        z-index: -1;
+    }
+    nav {
+        width: 105%;
+    }
     .modalL-content {
         width: 85%;
     }
     .cancelbtn {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    button {
-        color: white;
-        padding: 14px 20px;
-        border: none;
-        cursor: pointer;
-        width: 40%;
-    }
-    .modalL-content {
-        width: 85%;
-    }
-    .cancelbtn {
-        width: 80%;
     }
 }
