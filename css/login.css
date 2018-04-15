@@ -129,7 +129,7 @@ input {
 @media screen and (max-width: 600px) {
     .log {
         width: 100px;
-        margin-left: -30%;
+        margin-left: -35%;
     }
     #barraPesquisa {
         width: 0;
